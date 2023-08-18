@@ -4,7 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <title>CSS Properties</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
   <style>
+    html {
+      font-size: 30px;
+    }
     body {
       background-color: cornflowerblue;
       color: white;
@@ -19,11 +26,11 @@
 
 <body>
   <h1>Important CSS Properties</h1>
-  <p>Color</p>
-  <p>Font Size</p>
-  <p>Font Weight</p>
-  <p>Font Family</p>
-  <p>Text Align</p>
+  <p class="color-title" id=orange>Color</p>
+  <p id=fontSize>Font Size</p>
+  <p id="fontWeight">Font Weight</p>
+  <p id="fontFamily">Font Family</p>
+  <p id="textAlign">Text Align</p>
 
   <!-- TODOs
   1. Change the color of <p>Color</p> to "coral" color.

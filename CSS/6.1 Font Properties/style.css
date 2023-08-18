@@ -1,0 +1,20 @@
+.color-title {
+    color:coral;
+  }
+
+#fontSize {
+    font-size:2rem;
+    font-family: serif;
+}
+
+#fontWeight {
+    font-weight: 900;
+}
+
+#fontFamily {
+    font-family: font-family, Caveat;
+}
+
+#textAlign {
+    text-align: right;
+}
